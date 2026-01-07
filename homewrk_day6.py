@@ -2,7 +2,6 @@ blog_views = [150, 800, 2500, 600, 1200, 450, 3000]
 
 total_views = 0
 trending_count = 0
-
 for views in blog_views:
     total_views += views
 
@@ -15,4 +14,4 @@ for views in blog_views:
         print("Low Traffic")
 
 print("\nTotal number of views:", total_views)
-print("Number of Trending posts:", trending_count)
+print("Number of Trending posts:", trending_count)  
