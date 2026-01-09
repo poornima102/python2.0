@@ -18,7 +18,6 @@ class Trainer(Employee):
         print(f"Role: {self.role}")
         print(f"Specialization: {self.specialization}")
 
-
 class YogaInstructor(Employee):
     def __init__(self, name, role, yoga_style):
         super().__init__(name, role)
